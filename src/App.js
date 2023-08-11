@@ -14,7 +14,7 @@ function App() {
         <Route exact path='/admin/dashboard' element={<Table data={data}/>}></Route>
       </Routes>
     </Router>
-    <Footer/>
+    {/* <Footer/> */}
     </>
   );
 }
