@@ -1,8 +1,9 @@
 .header {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 2rem;
 }
 
 .footer {
@@ -12,4 +13,18 @@
   padding: 10px 0;
   text-align: center;
   margin-top: auto;
+}
+
+.table{
+  margin: 3rem;
+  /* background: #000; */
+}
+.username{
+ text-transform: capitalize;
+}
+@media (max-width: 767px) {
+  /* Your CSS styles for mobile devices here */
+  .table{
+    margin: 1rem;
+  }
 }

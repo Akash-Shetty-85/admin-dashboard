@@ -7,10 +7,11 @@ const Table = ({ data }) => {
     return (
         <>
             <Header title={'Admin Dashboard'} />
-           
+           <div className='table'>
             {data.map((user, index) => (
                 <UserAccordion key={index} user={user} />
             ))}
+            </div>
         </>
     );
 };
